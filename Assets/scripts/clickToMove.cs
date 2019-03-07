@@ -29,15 +29,16 @@ public class clickToMove : MonoBehaviour {
             {
                 mNavMeshAgent.destination = hit.point;
             }
-            if (mNavMeshAgent.remainingDistance <= mNavMeshAgent.stoppingDistance)
-            {
-                mRunning = false;
-            }
-            else
-            {
-                mRunning = true;
-            }
-            mAnimator.SetBool("running", mRunning);
         }
+        if (mNavMeshAgent.remainingDistance <= mNavMeshAgent.stoppingDistance)
+        {
+            mRunning = false;
+        }
+        else
+        {
+            mRunning = true;
+        }
+        mAnimator.SetBool("running", mRunning);
+        
 	}
 }
