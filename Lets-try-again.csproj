@@ -231,6 +231,7 @@
     <Compile Include="Assets\scripts\characterMove.cs" />
     <Compile Include="Assets\scripts\clickToMove.cs" />
     <Compile Include="Assets\scripts\doors.cs" />
+    <Compile Include="Assets\scripts\doors1.cs" />
     <Compile Include="Assets\scripts\elevator.cs" />
     <Compile Include="Assets\scripts\NavMeshComponents\Scripts\NavMeshLink.cs" />
     <Compile Include="Assets\scripts\NavMeshComponents\Scripts\NavMeshModifier.cs" />
