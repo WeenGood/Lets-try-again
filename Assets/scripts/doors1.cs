@@ -6,10 +6,6 @@ public class doors1 : MonoBehaviour {
 
     private Animator mAnimator;
 
-
-
-    private bool mRunning = false;
-
     public bool open = false;
 
     // Use this for initialization
