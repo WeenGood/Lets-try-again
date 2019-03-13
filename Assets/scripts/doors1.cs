@@ -5,7 +5,7 @@ using UnityEngine;
 public class doors1 : MonoBehaviour {
 
     private Animator mAnimator;
-
+    public GameObject player;
     public bool open = false;
 
     // Use this for initialization
@@ -21,7 +21,6 @@ public class doors1 : MonoBehaviour {
         
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject player = GameObject.Find("Player");
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             RaycastHit hit;

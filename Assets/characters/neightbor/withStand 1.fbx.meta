@@ -36,6 +36,10 @@ ModelImporter:
     100056: upper_arm.L
     100058: upper_arm.R
     100060: //RootNode
+    100062: body
+    100064: helmet
+    100066: jecket
+    100068: pants
     400000: foot.L
     400002: foot.R
     400004: forearm.L
@@ -67,12 +71,26 @@ ModelImporter:
     400056: upper_arm.L
     400058: upper_arm.R
     400060: //RootNode
+    400062: body
+    400064: helmet
+    400066: jecket
+    400068: pants
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Sphere
+    4300002: body
+    4300004: pants
+    4300006: jecket
+    4300008: helmet
     7400000: metarig|run
     7400002: metarig|stand
     7400004: metarig|stand.001
     9500000: //RootNode
     13700000: Sphere
+    13700002: body
+    13700004: helmet
+    13700006: jecket
+    13700008: pants
   externalObjects:
   - first:
       type: UnityEngine:Material
