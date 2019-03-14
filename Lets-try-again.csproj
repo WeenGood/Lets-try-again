@@ -229,9 +229,14 @@
     <Compile Include="Assets\EquipmentManager.cs" />
     <Compile Include="Assets\InventorySlot.cs" />
     <Compile Include="Assets\InventoryUI.cs" />
-    <Compile Include="Assets\scripts\CameraController.cs" />
     <Compile Include="Assets\scripts\CharacterAnimator.cs" />
+    <Compile Include="Assets\scripts\CharacterCombat.cs" />
+    <Compile Include="Assets\scripts\Controllers\CameraController.cs" />
+    <Compile Include="Assets\scripts\Controllers\EnemyController.cs" />
+    <Compile Include="Assets\scripts\Controllers\PlayerController.cs" />
+    <Compile Include="Assets\scripts\Controllers\PlayerMotor.cs" />
     <Compile Include="Assets\scripts\doors1.cs" />
+    <Compile Include="Assets\scripts\Enemy.cs" />
     <Compile Include="Assets\scripts\helper\ConvertToRegularMesh.cs" />
     <Compile Include="Assets\scripts\Interactable.cs" />
     <Compile Include="Assets\scripts\Inventory\Inventory.cs" />
@@ -242,9 +247,9 @@
     <Compile Include="Assets\scripts\NavMeshComponents\Scripts\NavMeshModifier.cs" />
     <Compile Include="Assets\scripts\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\scripts\NavMeshComponents\Scripts\NavMeshSurface.cs" />
-    <Compile Include="Assets\scripts\PlayerController.cs" />
-    <Compile Include="Assets\scripts\PlayerMotor.cs" />
+    <Compile Include="Assets\scripts\PlayerManager.cs" />
     <Compile Include="Assets\scripts\stats\CharacterStats.cs" />
+    <Compile Include="Assets\scripts\stats\EnemyStats.cs" />
     <Compile Include="Assets\scripts\stats\PlayerStats.cs" />
     <Compile Include="Assets\scripts\stats\Stat.cs" />
   </ItemGroup>
