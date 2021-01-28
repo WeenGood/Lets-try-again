@@ -165,6 +165,9 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/Ween Good/OneDrive/projects/Lets try again/Lets-try-again/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+      <HintPath>C:/Users/Ween Good/OneDrive/projects/Lets try again/Lets-try-again/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>C:/Users/Ween Good/OneDrive/projects/Lets try again/Lets-try-again/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
@@ -173,6 +176,9 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>C:/Users/Ween Good/OneDrive/projects/Lets try again/Lets-try-again/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
+      <HintPath>C:/Users/Ween Good/OneDrive/projects/Lets try again/Lets-try-again/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>C:/Users/Ween Good/OneDrive/projects/Lets try again/Lets-try-again/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
